@@ -7,7 +7,7 @@
     "test": "jest",
     "dev": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "publish": "npm version patch && npm run rollup && git push && npm publish"
+    "upload": "npm version patch && npm run rollup && git push && npm publish"
   },
   "author": "YOUR_NAME",
   "license": "ISC",
