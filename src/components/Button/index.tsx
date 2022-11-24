@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.scss';
+import css from './button.module.scss';
 
 export interface ButtonProps {
   label: string;
@@ -12,5 +12,5 @@ export interface ButtonProps {
 // export default Button;
 
 export default function Button(props: ButtonProps) {
-  return <button>{props.label}</button>;
+  return <button className={css.button}>{props.label}</button>;
 }
