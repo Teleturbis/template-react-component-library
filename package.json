@@ -1,8 +1,5 @@
 {
   "name": "@Teleturbis/template-react-component-library",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/template-react-component-library"
-  },
   "version": "0.1.0",
   "description": "A simple template for a custom React component library",
   "scripts": {
